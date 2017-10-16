@@ -1,8 +1,8 @@
 #For this repo:
 
-clone the repo
-cd to the location of the repo
-npm install
+clone the repo,
+cd to the location of the repo,
+npm install,
 npm start
 
 
