@@ -1,3 +1,11 @@
+#For this repo:
+
+clone the repo
+cd to the location of the repo
+npm install
+npm start
+
+
 # Auth0 React User Profile
 
 This sample demonstrates how to get a user's profile using Auth0 in a React application. The sample uses create-react-app.
