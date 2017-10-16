@@ -1,0 +1,175 @@
+.container {
+  width: 100%;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 15px;
+  font-family: Verdana;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
+}
+
+.navbar-default {
+  background-color: #009867;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-header {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar-header .btn {
+  float: right;
+  vertical-align: middle;
+}
+
+.navbar-header img {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  float: none;
+  margin: 0 auto;
+}
+
+.btn-log {
+  margin: 7px 3px;
+  color: #FFF;
+  background-color: #000000;
+  border: none;
+  font-size: 12px;
+}
+
+.btn-alt {
+  margin: 7px 3px;
+  color: #000;
+  background-color: #FFFF33;
+  border: none;
+  font-size: 12px;
+}
+
+.btn-log:hover, .btn-log:active, .btn-log:target, .btn-log:focus  {
+  color: #FFF;
+  background-color: #D3D3D3;
+  border: none;
+  outline: none;
+}
+
+.btn-alt:hover, .btn-alt:active, .btn-alt:target, .btn-alt:focus  {
+  color: #FFF;
+  background-color: #009867;
+  border: none;
+  outline: none;
+}
+
+.backdrop {
+  margin-bottom: 50px;
+  height: 500px;
+  background-image: url('./Images/pizza-cover.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #000;
+  vertical-align: middle;
+}
+
+.show-grid {
+  margin: 0;
+}
+
+.sentence1 {
+  padding-top: 150px;
+  margin-bottom: 0;
+  font-size: 60px;
+}
+
+.sentence2 {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.pizza-content {
+  margin: 0 auto;
+}
+
+.delivery {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #E12301;
+  font-size: 16px;
+}
+
+.delivery img {
+  height: 155px;
+  width: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #A9A9A9;
+}
+
+.links {
+  font-size: 14px;
+  text-align: center;
+  list-style: none;
+}
+
+.links li {
+  margin-bottom: 7px;
+}
+
+a {
+  color: #FFF;
+}
+
+a:hover, a:active {
+  color: #E12301;
+}
+
+.foot-grids {
+  margin: 0 auto;
+  /*border: 1px solid blue;*/
+}
+
+.social-links {
+  margin-top: 50px;
+  height: auto;
+  width: 300px;
+  display: block;
+}
+
+.history {
+  text-align: center;
+  /*color: #009867;*/
+}
+
+img.ad {
+  height: 150px;
+  width: auto;
+  background-image: url('./Images/blur-pizza.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}

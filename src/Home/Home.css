@@ -1,0 +1,8 @@
+.log-status {
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.log-status a {
+  color: red;
+}
